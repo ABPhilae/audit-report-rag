@@ -42,7 +42,7 @@ def extract_audit_metadata(text: str) -> dict:
     }
  
     # Extract region
-    region_match = re.search(r'Region:\s*([A-Z][\w\s/]+)', text)
+    region_match = re.search(r'Region:\s*([^\n]+)', text)
     if region_match:
         metadata["region"] = region_match.group(1).strip()[:50]
  
