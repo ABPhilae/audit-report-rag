@@ -1,0 +1,45 @@
+INTERNAL AUDIT REPORT
+Report Reference: IA-2025-H1-TECH-001
+Date: June 30, 2025
+Region: Global
+Audit Type: Technology Risk Assessment
+Severity Classification: High
+ 
+EXECUTIVE SUMMARY
+The H1 2025 technology risk audit covered 5 critical systems across all regions.
+Key concerns include backup and recovery gaps, software patch management, and
+third-party vendor access controls.
+ 
+FINDING 1: CRITICAL — BACKUP RECOVERY FAILURE
+Finding Title: No Disaster Recovery Testing in 6 Months
+Severity: Critical
+Region: Global
+Responsible Party: IT Infrastructure — James Liu
+Deadline: September 30, 2025
+Description: The annual disaster recovery test has not been performed for 6 months,
+exceeding the 3-month testing requirement in the IT Policy Framework.
+The last test revealed a 4-hour recovery time, but the current target is 2 hours.
+Root Cause: Team capacity constraints due to system migration project.
+Recommendation: Schedule and complete full DR test within 60 days. Document results.
+ 
+FINDING 2: HIGH — PATCH MANAGEMENT
+Finding Title: Critical Security Patches Not Applied Within SLA
+Severity: High
+Region: APAC
+Responsible Party: IT Security — Priya Sharma
+Deadline: August 31, 2025
+Description: 12 servers running critical banking applications had not received
+security patches within the mandatory 30-day window. Three of these patches
+addressed critical CVE vulnerabilities rated 9.0+ on the CVSS scale.
+Recommendation: Implement automated patch deployment with exception reporting.
+ 
+FINDING 3: MEDIUM — VENDOR ACCESS
+Finding Title: Third-Party Vendor Remote Access Without MFA
+Severity: Medium
+Region: Europe
+Responsible Party: IT Security — Thomas Bernard
+Deadline: October 31, 2025
+Description: 3 third-party vendors supporting core banking systems accessed the
+network via VPN without multi-factor authentication. This creates risk of
+credential compromise affecting critical systems.
+Recommendation: Mandate MFA for all third-party remote access immediately.

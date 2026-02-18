@@ -1,0 +1,49 @@
+INTERNAL AUDIT REPORT
+Report Reference: IA-2025-Q3-APAC-001
+Date: September 30, 2025
+Region: APAC
+Audit Type: Trade Reconciliation
+Severity Classification: Critical
+ 
+EXECUTIVE SUMMARY
+The Q3 2025 audit of APAC trade reconciliation processes identified 3 critical findings
+and 4 medium findings. The most significant issues relate to control breakdowns in
+the Hong Kong office's end-of-day reconciliation process.
+ 
+FINDING 1: CRITICAL — TRADE RECONCILIATION DELAY
+Finding Title: End-of-Day Reconciliation Delay Exceeding SLA
+Severity: Critical
+Region: Hong Kong
+Responsible Party: Operations Team — Michael Chen
+Deadline: December 31, 2025
+Description: The front-office trade booking system showed a systematic 3-day delay
+in reconciliation with the back-office settlement records. This represents a breach
+of the 24-hour reconciliation SLA established in the Operations Policy v3.2.
+Root Cause: Manual data entry process between the legacy TradeStar system and
+the new Atlas settlement platform. No automated interface exists.
+Recommendation: Implement automated API reconciliation between TradeStar and Atlas.
+Estimated effort: 3 months. Interim control: daily manual check by senior officer.
+ 
+FINDING 2: CRITICAL — UNAUTHORIZED ACCOUNT ACCESS
+Finding Title: Unreviewed Privileged Accounts in Settlement System
+Severity: Critical
+Region: Singapore
+Responsible Party: IT Security — Priya Sharma
+Deadline: November 30, 2025
+Description: 47 privileged user accounts in the Atlas settlement system had not been
+reviewed in over 12 months, in violation of the quarterly access review requirement.
+Among these, 8 accounts belonged to former employees who had left the firm.
+Root Cause: Manual quarterly review process not completed due to team restructuring.
+Recommendation: Automate access review using the existing IAM system. Immediately
+revoke all 8 former employee accounts.
+ 
+FINDING 3: MEDIUM — DOCUMENTATION GAPS
+Finding Title: Incomplete Trade Amendment Documentation
+Severity: Medium
+Region: Hong Kong
+Responsible Party: Compliance — Sarah Wong
+Deadline: February 28, 2026
+Description: 23% of trade amendments reviewed lacked proper dual-authorisation
+documentation. While the authorisation itself occurred in the system, paper trail
+documentation was incomplete for regulatory purposes.
+Recommendation: Implement mandatory documentation checklist in the system.

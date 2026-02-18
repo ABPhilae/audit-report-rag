@@ -1,0 +1,33 @@
+INTERNAL AUDIT REPORT
+Report Reference: IA-2025-Q3-AML-001
+Date: September 30, 2025
+Region: Europe
+Audit Type: AML Transaction Monitoring Compliance
+Severity Classification: Medium
+ 
+EXECUTIVE SUMMARY
+The Q3 2025 AML compliance review covered transaction monitoring processes across
+the European region. Overall compliance rate reached 94%, an improvement of 6%
+from Q2 2025. Two medium findings and one low finding were raised.
+ 
+FINDING 1: MEDIUM — ALERT REVIEW BACKLOG
+Finding Title: AML Alert Backlog Exceeding 30-Day Review Threshold
+Severity: Medium
+Region: Europe
+Responsible Party: Compliance Operations — Marie Dubois
+Deadline: November 30, 2025
+Description: 156 AML transaction monitoring alerts had not been reviewed within
+the mandatory 30-day window. The backlog accumulation was concentrated in
+the French and German portfolios.
+Root Cause: Staff attrition of 2 compliance analysts in Q3.
+Recommendation: Prioritise alert review using risk-based scoring. Hire 1 analyst.
+ 
+FINDING 2: LOW — DOCUMENTATION QUALITY
+Finding Title: Inconsistent SAR Filing Documentation
+Severity: Low
+Region: Europe
+Responsible Party: Compliance — Jean-Pierre Moreau
+Deadline: March 31, 2026
+Description: Review of 50 Suspicious Activity Reports found inconsistent
+documentation standards across teams. 20% lacked sufficient narrative quality.
+Recommendation: Implement SAR writing training and quality checklist.
